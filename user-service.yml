@@ -6,6 +6,10 @@ spring:
         # passwrod: '{cipher}e9c61315bba93885f1c7018ff021bd362dadacdd008aec16cde6eced61a1e379'
         password: sa
 
+gateway:
+    ip: 172.18.0.5
+
+
 order_service:
     url: http://ORDERSERVICE/order-service/%s/order
     # MicroService name/ URI
